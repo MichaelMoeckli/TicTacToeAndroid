@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenu">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Tic Tac Toe"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textview_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="209dp"
+        android:text="Spieler Vs Spieler"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textview_playvsbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="288dp"
+        android:text="Spieler vs Computer"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_play"
+        android:layout_centerHorizontal="true"
+        android:text="@string/play" />
+
+    <Button
+        android:id="@+id/button_playvsbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="@string/play" />
+
+
+</RelativeLayout>
